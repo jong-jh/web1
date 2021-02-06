@@ -1,0 +1,41 @@
+h1{
+	
+	font:50px Fantasy;
+	text-align:left;
+	border-bottom:solid black 2px;
+	padding:20px;
+	margin-bottom:0px;
+}
+a{
+	font-family:Sans-Serif;
+	text-decoration:none;
+	color:black;
+}
+#title{
+	display:grid;
+	grid-template-columns:600px 1fr;
+}
+#intro{
+display:grid;
+grid-template-columns:250px 250px;
+}
+
+#intro ul{
+	font-size:25px;
+	height:300px;
+	border-right:1px solid black;
+}
+
+#intro #picture{
+	padding :30px;
+}
+
+@media(max-width:1000px){
+	#intro{
+		display:block;
+	}
+	#intro ul{
+		border-right:none;
+		height:auto;
+	}
+}
